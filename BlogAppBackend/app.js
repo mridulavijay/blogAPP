@@ -12,7 +12,7 @@ app.use(morgan('dev'));
 app.use(cors());
 
 // app.use('/api',userRoute)
-app.use('/api',postroute);
+app.use('/blog',postroute);
 app.use('/user',userRoute);
 app.listen(PORT,()=>{
     console.log(`${PORT} is up and running`);
